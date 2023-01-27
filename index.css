@@ -1,0 +1,423 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-size: 18px; */
+}
+
+h1{
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    font-weight: 600;
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+
+.logo{
+    display: flex;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.div-buttons{
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+}
+
+.div-buttons p{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+   
+}
+
+button{
+    padding: 12px 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.IOS{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.Mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+h2{
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.clip p{
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.desktop img{
+    width: 40%;
+}
+
+.desktop{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.quick h4{
+    margin-bottom: 10px;
+}
+
+.quick p{
+    width: 330px;
+}
+
+.quick{
+    margin-bottom: 50px;
+}
+
+.Icloud{
+    margin-bottom: 50px;
+}
+
+.Icloud h4{
+    margin-bottom: 10px;
+}
+
+.Icloud p{
+    width: 330px;
+}
+
+.history{
+    margin-bottom: 50px;
+}
+
+.history h4{
+    margin-bottom: 10px;
+}
+
+.history p{
+    width: 320px;
+}
+
+.Access p{
+    width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Access{
+    margin-bottom: 100px;
+}
+
+.devices img{
+    width: 50%;
+}
+
+.device-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.supercharge p{
+    text-align: center;
+}
+
+.supercharge h1{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h4{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+.blacklist img{
+    margin-bottom: 30px;
+}
+
+.plain img{
+    margin-bottom: 30px;
+}
+
+.sneak img{
+    margin-bottom: 30px;
+}
+
+.blacklist p{
+    width: 350px;
+    text-align: center;
+}
+
+.container h4{
+    margin-bottom: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 200px; */
+}
+
+.plain p{
+    width: 350px;
+    text-align: center;
+}
+
+.sneak p{
+    width: 350px;
+    text-align: center;
+}
+
+.devices{
+    margin-bottom: 50px;
+}
+
+.sponsors{
+    margin: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clipboard h1{
+    margin-bottom: 20px;
+}
+
+.clipboard p{
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+ul{
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ebebdc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-img{
+    width: 5%;
+}
+
+.ul-1{
+    gap: 50px;
+}
+
+.faq{
+    margin-bottom: 20px;
+}
+
+.pol{
+    margin-bottom: 20px;
+}
+
+a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+picture img{
+    max-width: 100%;
+}
+
+
+/* For Mobile */
+@media screen and (max-width:375px) {
+    .h1{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div-buttons p{
+        width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .buttons{
+        flex-wrap: wrap;
+    }
+    .clip h2{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clip p{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .desktop{
+        flex-direction: column;
+    }
+    .desktop img{
+        width: 80%;
+    }
+    .quick p{
+        width: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .quick h4{
+        text-align: center;
+        font-size: 25px;
+    }
+    .Icloud p{
+        width: 250px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Icloud h4{
+        text-align: center;
+        font-size: 25px;
+    }
+    .history p{
+        width: 300px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .history h4{
+        text-align: center;
+        font-size: 25px;
+    }
+    .Access h2{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Access p{
+        width: 310px;
+    }
+    .devices img{
+        width: 90%;
+    }
+    .supercharge p{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .blacklist p{
+        width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blacklist h4{
+        font-size: 25px;
+        text-align: center;
+    }
+    .blac-img{
+        display: flex;
+        justify-content: center;
+    }
+    .pla-img{
+        display: flex;
+        justify-content: center;
+    }
+    .sn-img{
+        display: flex;
+        justify-content: center;
+    }
+    .plain h4{
+        font-size: 25px;
+        text-align: center;
+    }
+    .sneak h4{
+        font-size: 25px;
+        text-align: center;
+    }
+    .plain p{
+        width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sneak p{
+        width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sponsors{
+        flex-direction: column;
+        gap: 60px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .clipboard p{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    .ul-1{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .ul2{
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .nav-img{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .div-buttons{
+        background-image: url(./images/bg-header-mobile.png);
+        background-size: cover;
+    }
+}
